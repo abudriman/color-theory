@@ -1,0 +1,81 @@
+:root {
+  --shade0: hsl(0, 0%, 10%);
+  --shade1: hsl(0, 0%, 25%);
+  --shade2: hsl(0, 0%, 46%);
+  --shade3: hsl(0, 0%, 83%);
+  --shade4: hsl(0, 0%, 96%);
+
+  --primary0: hsl(152, 100%, 8%);
+  --primary1: hsl(152, 100%, 16%);
+  --primary2: hsl(152, 100%, 25%);
+  --primary3: hsl(152, 50%, 50%);
+  --primary4: hsl(152, 50%, 96%);
+
+  --tinted0: hsl(152, 45%, 10%);
+  --tinted1: hsl(152, 25%, 26%);
+  --tinted2: hsl(152, 10%, 45%);
+  --tinted3: hsl(152, 10%, 83%);
+  --tinted4: hsl(152, 10%, 96%);
+
+  --secondary0: hsl(332, 100%, 8%);
+  --secondary1: hsl(332, 100%, 16%);
+  --secondary2: hsl(332, 100%, 25%);
+  --secondary3: hsl(332, 50%, 50%);
+  --secondary4: hsl(332, 50%, 96%);
+
+  --t-one0: hsl(209, 100%, 8%);
+  --t-one1: hsl(209, 100%, 16%);
+  --t-one2: hsl(209, 100%, 25%);
+  --t-one3: hsl(209, 50%, 50%);
+  --t-one4: hsl(209, 50%, 96%);
+
+  --t-two0: hsl(0, 100%, 8%);
+  --t-two1: hsl(0, 100%, 16%);
+  --t-two2: hsl(0, 100%, 25%);
+  --t-two3: hsl(0, 50%, 50%);
+  --t-two4: hsl(0, 50%, 96%);
+
+  --t-three0: hsl(69, 100%, 8%);
+  --t-three1: hsl(69, 100%, 16%);
+  --t-three2: hsl(69, 100%, 25%);
+  --t-three3: hsl(69, 50%, 50%);
+  --t-three4: hsl(69, 50%, 96%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #3b3b3b;
+  align-items: center;
+}
+.card {
+  background-color: #585858;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+h2 {
+  color: white;
+  margin: 20px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.color-group {
+  display: flex;
+}
+.color {
+  padding: 30px;
+  margin: 20px 10px;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
