@@ -35,11 +35,17 @@
   --t-two3: hsl(0, 50%, 50%);
   --t-two4: hsl(0, 50%, 96%);
 
+  /* this isn't threedom but need yellow combination for functional color */
   --t-three0: hsl(69, 100%, 8%);
   --t-three1: hsl(69, 100%, 16%);
   --t-three2: hsl(69, 100%, 25%);
   --t-three3: hsl(69, 50%, 50%);
   --t-three4: hsl(69, 50%, 96%);
+
+  --success: var(--primary3);
+  --link: var(--t-one3);
+  --error: var(--t-two3);
+  --warning: var(--t-three3);
 }
 
 body {
@@ -78,4 +84,7 @@ h2 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
